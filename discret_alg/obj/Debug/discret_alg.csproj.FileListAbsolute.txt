@@ -1,0 +1,11 @@
+C:\Users\Gamer\source\repos\discret_alg\discret_alg\bin\Debug\discret_alg.exe.config
+C:\Users\Gamer\source\repos\discret_alg\discret_alg\bin\Debug\discret_alg.exe
+C:\Users\Gamer\source\repos\discret_alg\discret_alg\bin\Debug\discret_alg.pdb
+C:\Users\Gamer\source\repos\discret_alg\discret_alg\obj\Debug\discret_alg.csproj.AssemblyReference.cache
+C:\Users\Gamer\source\repos\discret_alg\discret_alg\obj\Debug\discret_alg.csproj.SuggestedBindingRedirects.cache
+C:\Users\Gamer\source\repos\discret_alg\discret_alg\obj\Debug\discret_alg.Form1.resources
+C:\Users\Gamer\source\repos\discret_alg\discret_alg\obj\Debug\discret_alg.Properties.Resources.resources
+C:\Users\Gamer\source\repos\discret_alg\discret_alg\obj\Debug\discret_alg.csproj.GenerateResource.cache
+C:\Users\Gamer\source\repos\discret_alg\discret_alg\obj\Debug\discret_alg.csproj.CoreCompileInputs.cache
+C:\Users\Gamer\source\repos\discret_alg\discret_alg\obj\Debug\discret_alg.exe
+C:\Users\Gamer\source\repos\discret_alg\discret_alg\obj\Debug\discret_alg.pdb
