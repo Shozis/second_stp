@@ -118,6 +118,61 @@
             this.label86 = new System.Windows.Forms.Label();
             this.label87 = new System.Windows.Forms.Label();
             this.label88 = new System.Windows.Forms.Label();
+            this.listBox2 = new System.Windows.Forms.ListBox();
+            this.label89 = new System.Windows.Forms.Label();
+            this.listBox3 = new System.Windows.Forms.ListBox();
+            this.listBox4 = new System.Windows.Forms.ListBox();
+            this.label90 = new System.Windows.Forms.Label();
+            this.label91 = new System.Windows.Forms.Label();
+            this.listBox5 = new System.Windows.Forms.ListBox();
+            this.label92 = new System.Windows.Forms.Label();
+            this.label93 = new System.Windows.Forms.Label();
+            this.listBox6 = new System.Windows.Forms.ListBox();
+            this.label94 = new System.Windows.Forms.Label();
+            this.listBox7 = new System.Windows.Forms.ListBox();
+            this.label95 = new System.Windows.Forms.Label();
+            this.listBox8 = new System.Windows.Forms.ListBox();
+            this.listBox9 = new System.Windows.Forms.ListBox();
+            this.listBox10 = new System.Windows.Forms.ListBox();
+            this.label96 = new System.Windows.Forms.Label();
+            this.label97 = new System.Windows.Forms.Label();
+            this.label98 = new System.Windows.Forms.Label();
+            this.listBox11 = new System.Windows.Forms.ListBox();
+            this.label99 = new System.Windows.Forms.Label();
+            this.listBox12 = new System.Windows.Forms.ListBox();
+            this.label100 = new System.Windows.Forms.Label();
+            this.listBox13 = new System.Windows.Forms.ListBox();
+            this.label101 = new System.Windows.Forms.Label();
+            this.listBox14 = new System.Windows.Forms.ListBox();
+            this.listBox15 = new System.Windows.Forms.ListBox();
+            this.label102 = new System.Windows.Forms.Label();
+            this.label103 = new System.Windows.Forms.Label();
+            this.label104 = new System.Windows.Forms.Label();
+            this.listBox16 = new System.Windows.Forms.ListBox();
+            this.listBox17 = new System.Windows.Forms.ListBox();
+            this.listBox18 = new System.Windows.Forms.ListBox();
+            this.listBox19 = new System.Windows.Forms.ListBox();
+            this.label105 = new System.Windows.Forms.Label();
+            this.label106 = new System.Windows.Forms.Label();
+            this.label107 = new System.Windows.Forms.Label();
+            this.listBox20 = new System.Windows.Forms.ListBox();
+            this.listBox21 = new System.Windows.Forms.ListBox();
+            this.listBox22 = new System.Windows.Forms.ListBox();
+            this.label108 = new System.Windows.Forms.Label();
+            this.label109 = new System.Windows.Forms.Label();
+            this.label110 = new System.Windows.Forms.Label();
+            this.listBox23 = new System.Windows.Forms.ListBox();
+            this.listBox24 = new System.Windows.Forms.ListBox();
+            this.listBox25 = new System.Windows.Forms.ListBox();
+            this.label111 = new System.Windows.Forms.Label();
+            this.label112 = new System.Windows.Forms.Label();
+            this.label113 = new System.Windows.Forms.Label();
+            this.listBox26 = new System.Windows.Forms.ListBox();
+            this.listBox27 = new System.Windows.Forms.ListBox();
+            this.listBox28 = new System.Windows.Forms.ListBox();
+            this.label114 = new System.Windows.Forms.Label();
+            this.label115 = new System.Windows.Forms.Label();
+            this.label116 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -859,7 +914,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(23, 624);
+            this.button1.Location = new System.Drawing.Point(31, 427);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 85;
@@ -870,11 +925,12 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(127, 34);
+            this.listBox1.Location = new System.Drawing.Point(145, 35);
             this.listBox1.Name = "listBox1";
             this.listBox1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.listBox1.Size = new System.Drawing.Size(65, 381);
+            this.listBox1.Size = new System.Drawing.Size(21, 381);
             this.listBox1.TabIndex = 86;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // label85
             // 
@@ -912,11 +968,564 @@
             this.label88.TabIndex = 90;
             this.label88.Text = "0";
             // 
+            // listBox2
+            // 
+            this.listBox2.FormattingEnabled = true;
+            this.listBox2.Location = new System.Drawing.Point(310, 35);
+            this.listBox2.Name = "listBox2";
+            this.listBox2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.listBox2.Size = new System.Drawing.Size(21, 381);
+            this.listBox2.TabIndex = 91;
+            // 
+            // label89
+            // 
+            this.label89.AutoSize = true;
+            this.label89.Location = new System.Drawing.Point(145, 13);
+            this.label89.Name = "label89";
+            this.label89.Size = new System.Drawing.Size(31, 13);
+            this.label89.TabIndex = 92;
+            this.label89.Text = "a u b";
+            // 
+            // listBox3
+            // 
+            this.listBox3.FormattingEnabled = true;
+            this.listBox3.Location = new System.Drawing.Point(478, 35);
+            this.listBox3.Name = "listBox3";
+            this.listBox3.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.listBox3.Size = new System.Drawing.Size(21, 381);
+            this.listBox3.TabIndex = 93;
+            // 
+            // listBox4
+            // 
+            this.listBox4.FormattingEnabled = true;
+            this.listBox4.Location = new System.Drawing.Point(648, 35);
+            this.listBox4.Name = "listBox4";
+            this.listBox4.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.listBox4.Size = new System.Drawing.Size(21, 381);
+            this.listBox4.TabIndex = 94;
+            // 
+            // label90
+            // 
+            this.label90.AutoSize = true;
+            this.label90.Location = new System.Drawing.Point(307, 13);
+            this.label90.Name = "label90";
+            this.label90.Size = new System.Drawing.Size(31, 13);
+            this.label90.TabIndex = 95;
+            this.label90.Text = "a u c";
+            // 
+            // label91
+            // 
+            this.label91.AutoSize = true;
+            this.label91.Location = new System.Drawing.Point(475, 13);
+            this.label91.Name = "label91";
+            this.label91.Size = new System.Drawing.Size(31, 13);
+            this.label91.TabIndex = 96;
+            this.label91.Text = "a u d";
+            this.label91.Click += new System.EventHandler(this.label91_Click);
+            // 
+            // listBox5
+            // 
+            this.listBox5.FormattingEnabled = true;
+            this.listBox5.Location = new System.Drawing.Point(819, 35);
+            this.listBox5.Name = "listBox5";
+            this.listBox5.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.listBox5.Size = new System.Drawing.Size(21, 381);
+            this.listBox5.TabIndex = 97;
+            // 
+            // label92
+            // 
+            this.label92.AutoSize = true;
+            this.label92.Location = new System.Drawing.Point(645, 13);
+            this.label92.Name = "label92";
+            this.label92.Size = new System.Drawing.Size(31, 13);
+            this.label92.TabIndex = 98;
+            this.label92.Text = "b u c";
+            // 
+            // label93
+            // 
+            this.label93.AutoSize = true;
+            this.label93.Location = new System.Drawing.Point(816, 13);
+            this.label93.Name = "label93";
+            this.label93.Size = new System.Drawing.Size(31, 13);
+            this.label93.TabIndex = 99;
+            this.label93.Text = "b u d";
+            // 
+            // listBox6
+            // 
+            this.listBox6.FormattingEnabled = true;
+            this.listBox6.Location = new System.Drawing.Point(978, 35);
+            this.listBox6.Name = "listBox6";
+            this.listBox6.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.listBox6.Size = new System.Drawing.Size(21, 381);
+            this.listBox6.TabIndex = 100;
+            // 
+            // label94
+            // 
+            this.label94.AutoSize = true;
+            this.label94.Location = new System.Drawing.Point(975, 13);
+            this.label94.Name = "label94";
+            this.label94.Size = new System.Drawing.Size(31, 13);
+            this.label94.TabIndex = 101;
+            this.label94.Text = "c u d";
+            // 
+            // listBox7
+            // 
+            this.listBox7.FormattingEnabled = true;
+            this.listBox7.Location = new System.Drawing.Point(1153, 35);
+            this.listBox7.Name = "listBox7";
+            this.listBox7.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.listBox7.Size = new System.Drawing.Size(21, 381);
+            this.listBox7.TabIndex = 102;
+            // 
+            // label95
+            // 
+            this.label95.AutoSize = true;
+            this.label95.Location = new System.Drawing.Point(1153, 12);
+            this.label95.Name = "label95";
+            this.label95.Size = new System.Drawing.Size(16, 13);
+            this.label95.TabIndex = 103;
+            this.label95.Text = "-a";
+            // 
+            // listBox8
+            // 
+            this.listBox8.FormattingEnabled = true;
+            this.listBox8.Location = new System.Drawing.Point(1200, 35);
+            this.listBox8.Name = "listBox8";
+            this.listBox8.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.listBox8.Size = new System.Drawing.Size(21, 381);
+            this.listBox8.TabIndex = 104;
+            // 
+            // listBox9
+            // 
+            this.listBox9.FormattingEnabled = true;
+            this.listBox9.Location = new System.Drawing.Point(1245, 35);
+            this.listBox9.Name = "listBox9";
+            this.listBox9.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.listBox9.Size = new System.Drawing.Size(21, 381);
+            this.listBox9.TabIndex = 105;
+            // 
+            // listBox10
+            // 
+            this.listBox10.FormattingEnabled = true;
+            this.listBox10.Location = new System.Drawing.Point(1291, 35);
+            this.listBox10.Name = "listBox10";
+            this.listBox10.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.listBox10.Size = new System.Drawing.Size(21, 381);
+            this.listBox10.TabIndex = 106;
+            // 
+            // label96
+            // 
+            this.label96.AutoSize = true;
+            this.label96.Location = new System.Drawing.Point(1205, 13);
+            this.label96.Name = "label96";
+            this.label96.Size = new System.Drawing.Size(16, 13);
+            this.label96.TabIndex = 107;
+            this.label96.Text = "-b";
+            // 
+            // label97
+            // 
+            this.label97.AutoSize = true;
+            this.label97.Location = new System.Drawing.Point(1250, 13);
+            this.label97.Name = "label97";
+            this.label97.Size = new System.Drawing.Size(16, 13);
+            this.label97.TabIndex = 108;
+            this.label97.Text = "-c";
+            // 
+            // label98
+            // 
+            this.label98.AutoSize = true;
+            this.label98.Location = new System.Drawing.Point(1296, 13);
+            this.label98.Name = "label98";
+            this.label98.Size = new System.Drawing.Size(16, 13);
+            this.label98.TabIndex = 109;
+            this.label98.Text = "-d";
+            // 
+            // listBox11
+            // 
+            this.listBox11.FormattingEnabled = true;
+            this.listBox11.Location = new System.Drawing.Point(268, 35);
+            this.listBox11.Name = "listBox11";
+            this.listBox11.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.listBox11.Size = new System.Drawing.Size(21, 381);
+            this.listBox11.TabIndex = 110;
+            // 
+            // label99
+            // 
+            this.label99.AutoSize = true;
+            this.label99.Location = new System.Drawing.Point(265, 13);
+            this.label99.Name = "label99";
+            this.label99.Size = new System.Drawing.Size(34, 13);
+            this.label99.TabIndex = 111;
+            this.label99.Text = "a != b";
+            this.label99.Click += new System.EventHandler(this.label99_Click);
+            // 
+            // listBox12
+            // 
+            this.listBox12.FormattingEnabled = true;
+            this.listBox12.Location = new System.Drawing.Point(185, 35);
+            this.listBox12.Name = "listBox12";
+            this.listBox12.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.listBox12.Size = new System.Drawing.Size(21, 381);
+            this.listBox12.TabIndex = 112;
+            // 
+            // label100
+            // 
+            this.label100.AutoSize = true;
+            this.label100.Location = new System.Drawing.Point(182, 12);
+            this.label100.Name = "label100";
+            this.label100.Size = new System.Drawing.Size(31, 13);
+            this.label100.TabIndex = 113;
+            this.label100.Text = "a n b";
+            // 
+            // listBox13
+            // 
+            this.listBox13.FormattingEnabled = true;
+            this.listBox13.Location = new System.Drawing.Point(351, 35);
+            this.listBox13.Name = "listBox13";
+            this.listBox13.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.listBox13.Size = new System.Drawing.Size(21, 381);
+            this.listBox13.TabIndex = 114;
+            // 
+            // label101
+            // 
+            this.label101.AutoSize = true;
+            this.label101.Location = new System.Drawing.Point(348, 12);
+            this.label101.Name = "label101";
+            this.label101.Size = new System.Drawing.Size(31, 13);
+            this.label101.TabIndex = 115;
+            this.label101.Text = "a n c";
+            // 
+            // listBox14
+            // 
+            this.listBox14.FormattingEnabled = true;
+            this.listBox14.Location = new System.Drawing.Point(224, 35);
+            this.listBox14.Name = "listBox14";
+            this.listBox14.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.listBox14.Size = new System.Drawing.Size(21, 381);
+            this.listBox14.TabIndex = 116;
+            // 
+            // listBox15
+            // 
+            this.listBox15.FormattingEnabled = true;
+            this.listBox15.Location = new System.Drawing.Point(394, 35);
+            this.listBox15.Name = "listBox15";
+            this.listBox15.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.listBox15.Size = new System.Drawing.Size(21, 381);
+            this.listBox15.TabIndex = 117;
+            // 
+            // label102
+            // 
+            this.label102.AutoSize = true;
+            this.label102.Location = new System.Drawing.Point(219, 12);
+            this.label102.Name = "label102";
+            this.label102.Size = new System.Drawing.Size(31, 13);
+            this.label102.TabIndex = 118;
+            this.label102.Text = "a = b";
+            // 
+            // label103
+            // 
+            this.label103.AutoSize = true;
+            this.label103.Location = new System.Drawing.Point(385, 12);
+            this.label103.Name = "label103";
+            this.label103.Size = new System.Drawing.Size(31, 13);
+            this.label103.TabIndex = 119;
+            this.label103.Text = "a = с";
+            // 
+            // label104
+            // 
+            this.label104.AutoSize = true;
+            this.label104.Location = new System.Drawing.Point(433, 12);
+            this.label104.Name = "label104";
+            this.label104.Size = new System.Drawing.Size(34, 13);
+            this.label104.TabIndex = 120;
+            this.label104.Text = "a != с";
+            // 
+            // listBox16
+            // 
+            this.listBox16.FormattingEnabled = true;
+            this.listBox16.Location = new System.Drawing.Point(436, 35);
+            this.listBox16.Name = "listBox16";
+            this.listBox16.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.listBox16.Size = new System.Drawing.Size(21, 381);
+            this.listBox16.TabIndex = 121;
+            // 
+            // listBox17
+            // 
+            this.listBox17.FormattingEnabled = true;
+            this.listBox17.Location = new System.Drawing.Point(520, 35);
+            this.listBox17.Name = "listBox17";
+            this.listBox17.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.listBox17.Size = new System.Drawing.Size(21, 381);
+            this.listBox17.TabIndex = 122;
+            // 
+            // listBox18
+            // 
+            this.listBox18.FormattingEnabled = true;
+            this.listBox18.Location = new System.Drawing.Point(562, 35);
+            this.listBox18.Name = "listBox18";
+            this.listBox18.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.listBox18.Size = new System.Drawing.Size(21, 381);
+            this.listBox18.TabIndex = 123;
+            this.listBox18.SelectedIndexChanged += new System.EventHandler(this.listBox18_SelectedIndexChanged);
+            // 
+            // listBox19
+            // 
+            this.listBox19.FormattingEnabled = true;
+            this.listBox19.Location = new System.Drawing.Point(605, 35);
+            this.listBox19.Name = "listBox19";
+            this.listBox19.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.listBox19.Size = new System.Drawing.Size(21, 381);
+            this.listBox19.TabIndex = 124;
+            // 
+            // label105
+            // 
+            this.label105.AutoSize = true;
+            this.label105.Location = new System.Drawing.Point(517, 13);
+            this.label105.Name = "label105";
+            this.label105.Size = new System.Drawing.Size(31, 13);
+            this.label105.TabIndex = 125;
+            this.label105.Text = "a n d";
+            // 
+            // label106
+            // 
+            this.label106.AutoSize = true;
+            this.label106.Location = new System.Drawing.Point(559, 13);
+            this.label106.Name = "label106";
+            this.label106.Size = new System.Drawing.Size(31, 13);
+            this.label106.TabIndex = 126;
+            this.label106.Text = "a = d";
+            // 
+            // label107
+            // 
+            this.label107.AutoSize = true;
+            this.label107.Location = new System.Drawing.Point(602, 13);
+            this.label107.Name = "label107";
+            this.label107.Size = new System.Drawing.Size(34, 13);
+            this.label107.TabIndex = 127;
+            this.label107.Text = "a != d";
+            // 
+            // listBox20
+            // 
+            this.listBox20.FormattingEnabled = true;
+            this.listBox20.Location = new System.Drawing.Point(689, 35);
+            this.listBox20.Name = "listBox20";
+            this.listBox20.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.listBox20.Size = new System.Drawing.Size(21, 381);
+            this.listBox20.TabIndex = 128;
+            // 
+            // listBox21
+            // 
+            this.listBox21.FormattingEnabled = true;
+            this.listBox21.Location = new System.Drawing.Point(731, 35);
+            this.listBox21.Name = "listBox21";
+            this.listBox21.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.listBox21.Size = new System.Drawing.Size(21, 381);
+            this.listBox21.TabIndex = 129;
+            // 
+            // listBox22
+            // 
+            this.listBox22.FormattingEnabled = true;
+            this.listBox22.Location = new System.Drawing.Point(774, 35);
+            this.listBox22.Name = "listBox22";
+            this.listBox22.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.listBox22.Size = new System.Drawing.Size(21, 381);
+            this.listBox22.TabIndex = 130;
+            // 
+            // label108
+            // 
+            this.label108.AutoSize = true;
+            this.label108.Location = new System.Drawing.Point(686, 13);
+            this.label108.Name = "label108";
+            this.label108.Size = new System.Drawing.Size(31, 13);
+            this.label108.TabIndex = 131;
+            this.label108.Text = "b n c";
+            // 
+            // label109
+            // 
+            this.label109.AutoSize = true;
+            this.label109.Location = new System.Drawing.Point(728, 13);
+            this.label109.Name = "label109";
+            this.label109.Size = new System.Drawing.Size(31, 13);
+            this.label109.TabIndex = 132;
+            this.label109.Text = "b = c";
+            // 
+            // label110
+            // 
+            this.label110.AutoSize = true;
+            this.label110.Location = new System.Drawing.Point(771, 13);
+            this.label110.Name = "label110";
+            this.label110.Size = new System.Drawing.Size(34, 13);
+            this.label110.TabIndex = 133;
+            this.label110.Text = "b != c";
+            // 
+            // listBox23
+            // 
+            this.listBox23.FormattingEnabled = true;
+            this.listBox23.Location = new System.Drawing.Point(858, 35);
+            this.listBox23.Name = "listBox23";
+            this.listBox23.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.listBox23.Size = new System.Drawing.Size(21, 381);
+            this.listBox23.TabIndex = 134;
+            // 
+            // listBox24
+            // 
+            this.listBox24.FormattingEnabled = true;
+            this.listBox24.Location = new System.Drawing.Point(896, 35);
+            this.listBox24.Name = "listBox24";
+            this.listBox24.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.listBox24.Size = new System.Drawing.Size(21, 381);
+            this.listBox24.TabIndex = 135;
+            // 
+            // listBox25
+            // 
+            this.listBox25.FormattingEnabled = true;
+            this.listBox25.Location = new System.Drawing.Point(936, 35);
+            this.listBox25.Name = "listBox25";
+            this.listBox25.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.listBox25.Size = new System.Drawing.Size(21, 381);
+            this.listBox25.TabIndex = 136;
+            // 
+            // label111
+            // 
+            this.label111.AutoSize = true;
+            this.label111.Location = new System.Drawing.Point(853, 13);
+            this.label111.Name = "label111";
+            this.label111.Size = new System.Drawing.Size(31, 13);
+            this.label111.TabIndex = 137;
+            this.label111.Text = "b n d";
+            // 
+            // label112
+            // 
+            this.label112.AutoSize = true;
+            this.label112.Location = new System.Drawing.Point(893, 13);
+            this.label112.Name = "label112";
+            this.label112.Size = new System.Drawing.Size(31, 13);
+            this.label112.TabIndex = 138;
+            this.label112.Text = "b = d";
+            // 
+            // label113
+            // 
+            this.label113.AutoSize = true;
+            this.label113.Location = new System.Drawing.Point(933, 13);
+            this.label113.Name = "label113";
+            this.label113.Size = new System.Drawing.Size(34, 13);
+            this.label113.TabIndex = 139;
+            this.label113.Text = "b != d";
+            // 
+            // listBox26
+            // 
+            this.listBox26.FormattingEnabled = true;
+            this.listBox26.Location = new System.Drawing.Point(1019, 35);
+            this.listBox26.Name = "listBox26";
+            this.listBox26.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.listBox26.Size = new System.Drawing.Size(21, 381);
+            this.listBox26.TabIndex = 140;
+            // 
+            // listBox27
+            // 
+            this.listBox27.FormattingEnabled = true;
+            this.listBox27.Location = new System.Drawing.Point(1060, 35);
+            this.listBox27.Name = "listBox27";
+            this.listBox27.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.listBox27.Size = new System.Drawing.Size(21, 381);
+            this.listBox27.TabIndex = 141;
+            // 
+            // listBox28
+            // 
+            this.listBox28.FormattingEnabled = true;
+            this.listBox28.Location = new System.Drawing.Point(1098, 35);
+            this.listBox28.Name = "listBox28";
+            this.listBox28.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.listBox28.Size = new System.Drawing.Size(21, 381);
+            this.listBox28.TabIndex = 142;
+            // 
+            // label114
+            // 
+            this.label114.AutoSize = true;
+            this.label114.Location = new System.Drawing.Point(1016, 13);
+            this.label114.Name = "label114";
+            this.label114.Size = new System.Drawing.Size(31, 13);
+            this.label114.TabIndex = 143;
+            this.label114.Text = "c n d";
+            // 
+            // label115
+            // 
+            this.label115.AutoSize = true;
+            this.label115.Location = new System.Drawing.Point(1057, 13);
+            this.label115.Name = "label115";
+            this.label115.Size = new System.Drawing.Size(31, 13);
+            this.label115.TabIndex = 144;
+            this.label115.Text = "c = d";
+            // 
+            // label116
+            // 
+            this.label116.AutoSize = true;
+            this.label116.Location = new System.Drawing.Point(1095, 12);
+            this.label116.Name = "label116";
+            this.label116.Size = new System.Drawing.Size(34, 13);
+            this.label116.TabIndex = 145;
+            this.label116.Text = "c != d";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1300, 657);
+            this.ClientSize = new System.Drawing.Size(1324, 462);
+            this.Controls.Add(this.label116);
+            this.Controls.Add(this.label115);
+            this.Controls.Add(this.label114);
+            this.Controls.Add(this.listBox28);
+            this.Controls.Add(this.listBox27);
+            this.Controls.Add(this.listBox26);
+            this.Controls.Add(this.label113);
+            this.Controls.Add(this.label112);
+            this.Controls.Add(this.label111);
+            this.Controls.Add(this.listBox25);
+            this.Controls.Add(this.listBox24);
+            this.Controls.Add(this.listBox23);
+            this.Controls.Add(this.label110);
+            this.Controls.Add(this.label109);
+            this.Controls.Add(this.label108);
+            this.Controls.Add(this.listBox22);
+            this.Controls.Add(this.listBox21);
+            this.Controls.Add(this.listBox20);
+            this.Controls.Add(this.label107);
+            this.Controls.Add(this.label106);
+            this.Controls.Add(this.label105);
+            this.Controls.Add(this.listBox19);
+            this.Controls.Add(this.listBox18);
+            this.Controls.Add(this.listBox17);
+            this.Controls.Add(this.listBox16);
+            this.Controls.Add(this.label104);
+            this.Controls.Add(this.label103);
+            this.Controls.Add(this.label102);
+            this.Controls.Add(this.listBox15);
+            this.Controls.Add(this.listBox14);
+            this.Controls.Add(this.label101);
+            this.Controls.Add(this.listBox13);
+            this.Controls.Add(this.label100);
+            this.Controls.Add(this.listBox12);
+            this.Controls.Add(this.label99);
+            this.Controls.Add(this.listBox11);
+            this.Controls.Add(this.label98);
+            this.Controls.Add(this.label97);
+            this.Controls.Add(this.label96);
+            this.Controls.Add(this.listBox10);
+            this.Controls.Add(this.listBox9);
+            this.Controls.Add(this.listBox8);
+            this.Controls.Add(this.label95);
+            this.Controls.Add(this.listBox7);
+            this.Controls.Add(this.label94);
+            this.Controls.Add(this.listBox6);
+            this.Controls.Add(this.label93);
+            this.Controls.Add(this.label92);
+            this.Controls.Add(this.listBox5);
+            this.Controls.Add(this.label91);
+            this.Controls.Add(this.label90);
+            this.Controls.Add(this.listBox4);
+            this.Controls.Add(this.listBox3);
+            this.Controls.Add(this.label89);
+            this.Controls.Add(this.listBox2);
             this.Controls.Add(this.label88);
             this.Controls.Add(this.label87);
             this.Controls.Add(this.label86);
@@ -1105,6 +1714,61 @@
         private System.Windows.Forms.Label label86;
         private System.Windows.Forms.Label label87;
         private System.Windows.Forms.Label label88;
+        private System.Windows.Forms.ListBox listBox2;
+        private System.Windows.Forms.Label label89;
+        private System.Windows.Forms.ListBox listBox3;
+        private System.Windows.Forms.ListBox listBox4;
+        private System.Windows.Forms.Label label90;
+        private System.Windows.Forms.Label label91;
+        private System.Windows.Forms.ListBox listBox5;
+        private System.Windows.Forms.Label label92;
+        private System.Windows.Forms.Label label93;
+        private System.Windows.Forms.ListBox listBox6;
+        private System.Windows.Forms.Label label94;
+        private System.Windows.Forms.ListBox listBox7;
+        private System.Windows.Forms.Label label95;
+        private System.Windows.Forms.ListBox listBox8;
+        private System.Windows.Forms.ListBox listBox9;
+        private System.Windows.Forms.ListBox listBox10;
+        private System.Windows.Forms.Label label96;
+        private System.Windows.Forms.Label label97;
+        private System.Windows.Forms.Label label98;
+        private System.Windows.Forms.ListBox listBox11;
+        private System.Windows.Forms.Label label99;
+        private System.Windows.Forms.ListBox listBox12;
+        private System.Windows.Forms.Label label100;
+        private System.Windows.Forms.ListBox listBox13;
+        private System.Windows.Forms.Label label101;
+        private System.Windows.Forms.ListBox listBox14;
+        private System.Windows.Forms.ListBox listBox15;
+        private System.Windows.Forms.Label label102;
+        private System.Windows.Forms.Label label103;
+        private System.Windows.Forms.Label label104;
+        private System.Windows.Forms.ListBox listBox16;
+        private System.Windows.Forms.ListBox listBox17;
+        private System.Windows.Forms.ListBox listBox18;
+        private System.Windows.Forms.ListBox listBox19;
+        private System.Windows.Forms.Label label105;
+        private System.Windows.Forms.Label label106;
+        private System.Windows.Forms.Label label107;
+        private System.Windows.Forms.ListBox listBox20;
+        private System.Windows.Forms.ListBox listBox21;
+        private System.Windows.Forms.ListBox listBox22;
+        private System.Windows.Forms.Label label108;
+        private System.Windows.Forms.Label label109;
+        private System.Windows.Forms.Label label110;
+        private System.Windows.Forms.ListBox listBox23;
+        private System.Windows.Forms.ListBox listBox24;
+        private System.Windows.Forms.ListBox listBox25;
+        private System.Windows.Forms.Label label111;
+        private System.Windows.Forms.Label label112;
+        private System.Windows.Forms.Label label113;
+        private System.Windows.Forms.ListBox listBox26;
+        private System.Windows.Forms.ListBox listBox27;
+        private System.Windows.Forms.ListBox listBox28;
+        private System.Windows.Forms.Label label114;
+        private System.Windows.Forms.Label label115;
+        private System.Windows.Forms.Label label116;
     }
 }
 

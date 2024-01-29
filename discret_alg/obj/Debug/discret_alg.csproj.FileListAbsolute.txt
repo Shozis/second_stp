@@ -9,3 +9,13 @@ C:\Users\Gamer\source\repos\discret_alg\discret_alg\obj\Debug\discret_alg.csproj
 C:\Users\Gamer\source\repos\discret_alg\discret_alg\obj\Debug\discret_alg.csproj.CoreCompileInputs.cache
 C:\Users\Gamer\source\repos\discret_alg\discret_alg\obj\Debug\discret_alg.exe
 C:\Users\Gamer\source\repos\discret_alg\discret_alg\obj\Debug\discret_alg.pdb
+C:\Users\nikso\Documents\second_stp\discret_alg\bin\Debug\discret_alg.exe.config
+C:\Users\nikso\Documents\second_stp\discret_alg\bin\Debug\discret_alg.exe
+C:\Users\nikso\Documents\second_stp\discret_alg\bin\Debug\discret_alg.pdb
+C:\Users\nikso\Documents\second_stp\discret_alg\obj\Debug\discret_alg.csproj.AssemblyReference.cache
+C:\Users\nikso\Documents\second_stp\discret_alg\obj\Debug\discret_alg.Form1.resources
+C:\Users\nikso\Documents\second_stp\discret_alg\obj\Debug\discret_alg.Properties.Resources.resources
+C:\Users\nikso\Documents\second_stp\discret_alg\obj\Debug\discret_alg.csproj.GenerateResource.cache
+C:\Users\nikso\Documents\second_stp\discret_alg\obj\Debug\discret_alg.csproj.CoreCompileInputs.cache
+C:\Users\nikso\Documents\second_stp\discret_alg\obj\Debug\discret_alg.exe
+C:\Users\nikso\Documents\second_stp\discret_alg\obj\Debug\discret_alg.pdb
