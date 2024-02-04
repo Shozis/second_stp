@@ -70,6 +70,13 @@ namespace discret_alg
 
         private void button1_Click(object sender, EventArgs e)
         {
+
+            button1.Enabled = false;
+            button1.BackColor = Color.DarkRed;
+
+
+
+
             for(int i = 0; i < a.Length; i++)
             {
                 _a[i] = revers(a[i]);
@@ -123,17 +130,6 @@ namespace discret_alg
              }
 
 
-             for (int i = 0; i < a.Length; i++)
-             {
-               aBb[i] = both(a[i], b[i], aBb[i]);
-             }
-
-             for(int i = 0; i < a.Length; i++)
-             {
-                listBox12.Items.Add(aBb[i]);
-             }
-
-
             for (int i = 0; i < a.Length; i++)
             {
                 anb[i] = equally(a[i], b[i], anb[i]);
@@ -141,7 +137,18 @@ namespace discret_alg
 
             for (int i = 0; i < a.Length; i++)
             {
-                listBox14.Items.Add(aBb[i]);
+                listBox2.Items.Add(anb[i]);
+            }
+
+
+            for (int i = 0; i < a.Length; i++)
+            {
+                aBb[i] = both(a[i], b[i], aBb[i]);
+            }
+
+            for (int i = 0; i < a.Length; i++)
+            {
+                listBox3.Items.Add(aBb[i]);
             }
 
 
@@ -152,7 +159,7 @@ namespace discret_alg
 
             for (int i = 0; i < a.Length; i++)
             {
-                listBox11.Items.Add(aUBb[i]);
+                listBox4.Items.Add(aUBb[i]);
             }
 
 
@@ -164,7 +171,7 @@ namespace discret_alg
 
             for (int i = 0; i < a.Length; i++)
             {
-                listBox2.Items.Add(auc[i]);
+                listBox5.Items.Add(auc[i]);
             }
 
 
@@ -175,7 +182,7 @@ namespace discret_alg
 
             for (int i = 0; i < a.Length; i++)
             {
-                listBox13.Items.Add(anc[i]);
+                listBox6.Items.Add(anc[i]);
             }
 
 
@@ -186,7 +193,7 @@ namespace discret_alg
 
             for (int i = 0; i < a.Length; i++)
             {
-                listBox15.Items.Add(aBc[i]);
+                listBox11.Items.Add(aBc[i]);
             }
 
 
@@ -197,7 +204,7 @@ namespace discret_alg
 
             for (int i = 0; i < a.Length; i++)
             {
-                listBox16.Items.Add(aUBc[i]);
+                listBox12.Items.Add(aUBc[i]);
             }
 
 
@@ -209,7 +216,7 @@ namespace discret_alg
 
             for (int i = 0; i < a.Length; i++)
             {
-                listBox3.Items.Add(aud[i]);
+                listBox13.Items.Add(aud[i]);
             }
 
             for (int i = 0; i < a.Length; i++)
@@ -219,7 +226,7 @@ namespace discret_alg
 
             for (int i = 0; i < a.Length; i++)
             {
-                listBox17.Items.Add(and[i]);
+                listBox14.Items.Add(and[i]);
             }
 
 
@@ -230,7 +237,7 @@ namespace discret_alg
 
             for (int i = 0; i < a.Length; i++)
             {
-                listBox18.Items.Add(aBd[i]);
+                listBox15.Items.Add(aBd[i]);
             }
 
 
@@ -241,7 +248,7 @@ namespace discret_alg
 
             for (int i = 0; i < a.Length; i++)
             {
-                listBox19.Items.Add(aUBd[i]);
+                listBox16.Items.Add(aUBd[i]);
             }
 
 
@@ -253,7 +260,7 @@ namespace discret_alg
 
             for (int i = 0; i < a.Length; i++)
             {
-                listBox4.Items.Add(buc[i]);
+                listBox17.Items.Add(buc[i]);
             }
 
 
@@ -264,7 +271,7 @@ namespace discret_alg
 
             for (int i = 0; i < a.Length; i++)
             {
-                listBox20.Items.Add(bnc[i]);
+                listBox18.Items.Add(bnc[i]);
             }
 
 
@@ -275,7 +282,7 @@ namespace discret_alg
 
             for (int i = 0; i < a.Length; i++)
             {
-                listBox21.Items.Add(bBc[i]);
+                listBox19.Items.Add(bBc[i]);
             }
 
 
@@ -286,7 +293,7 @@ namespace discret_alg
 
             for (int i = 0; i < a.Length; i++)
             {
-                listBox22.Items.Add(bUBc[i]);
+                listBox20.Items.Add(bUBc[i]);
             }
 
 
@@ -298,7 +305,7 @@ namespace discret_alg
 
             for (int i = 0; i < a.Length; i++)
             {
-                listBox5.Items.Add(bud[i]);
+                listBox21.Items.Add(bud[i]);
             }
 
 
@@ -309,7 +316,7 @@ namespace discret_alg
 
             for (int i = 0; i < a.Length; i++)
             {
-                listBox23.Items.Add(bnd[i]);
+                listBox22.Items.Add(bnd[i]);
             }
 
 
@@ -320,7 +327,7 @@ namespace discret_alg
 
             for (int i = 0; i < a.Length; i++)
             {
-                listBox24.Items.Add(bBd[i]);
+                listBox23.Items.Add(bBd[i]);
             }
 
 
@@ -331,7 +338,7 @@ namespace discret_alg
 
             for (int i = 0; i < a.Length; i++)
             {
-                listBox25.Items.Add(bUBd[i]);
+                listBox24.Items.Add(bUBd[i]);
             }
 
 
@@ -343,7 +350,7 @@ namespace discret_alg
 
             for (int i = 0; i < a.Length; i++)
             {
-                listBox6.Items.Add(cud[i]);
+                listBox25.Items.Add(cud[i]);
             }
 
 
@@ -378,7 +385,7 @@ namespace discret_alg
             {
                 listBox28.Items.Add(cUBd[i]);
             }
-        }
+        }   
                 
         static int checkElement(int i)
         {
@@ -405,8 +412,8 @@ namespace discret_alg
         
         public int both(int a, int b, int ab)
         {
-                if ((a == 1 && b == 1) | (a == 0 && b == 0))
-                {
+                if (a == b)
+            {
                     ab = 1;
                 }
                 else
@@ -419,7 +426,7 @@ namespace discret_alg
 
         public int unboth(int a, int b, int ab)
         {
-            if ((a == 1 && b == 1) | (a == 0 && b == 0))
+            if (a == b)
             {
                 ab = 0;
             }
@@ -434,7 +441,7 @@ namespace discret_alg
         public int equally(int a, int b, int ab)
         {
             
-                if (a == b)
+                if (a == 1 && b == 1)
                 {
                     ab = 1;
                 }
@@ -461,6 +468,121 @@ namespace discret_alg
         }
 
         private void listBox18_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int aa = Convert.ToInt32(textBox1.Text);
+            int bb = Convert.ToInt32(textBox2.Text);
+            int cc = Convert.ToInt32(textBox3.Text);
+            int dd = Convert.ToInt32(textBox4.Text);
+
+
+            int _aa = revers(aa);
+            int _bb = revers(bb);
+            int _cc = revers(cc);
+            int _dd = revers(dd);
+
+            textBox29.Text = _aa.ToString();
+            textBox30.Text = _bb.ToString();
+            textBox31.Text = _cc.ToString();
+            textBox32.Text = _dd.ToString();
+
+
+            int aaubb = checkElement(aa + bb);
+            int aaucc = checkElement(aa + cc);
+            int aaudd = checkElement(aa + dd);
+            int bbucc = checkElement(bb + cc);
+            int bbudd = checkElement(bb + dd);
+            int ccudd = checkElement(cc + dd);
+
+            textBox5.Text = aaubb.ToString();
+            textBox9.Text = aaucc.ToString();
+            textBox13.Text = aaudd.ToString();
+            textBox17.Text = bbucc.ToString();
+            textBox21.Text = bbucc.ToString();
+            textBox25.Text = ccudd.ToString();
+
+
+            int aanbb = 0;
+            int aancc = 0;
+            int aandd = 0;
+            int bbncc = 0;
+            int bbndd = 0;
+            int ccndd = 0;
+
+            aanbb = equally(aa, bb, aanbb);
+            aancc = equally(aa, bb, aancc);
+            aandd = equally(aa, bb, aandd);
+            bbncc = equally(aa, bb, bbncc);
+            bbndd = equally(aa, bb, bbndd);
+            ccndd = equally(aa, bb, ccndd);
+
+            textBox6.Text = aanbb.ToString();
+            textBox10.Text = aancc.ToString();
+            textBox14.Text = aandd.ToString();
+            textBox18.Text = bbncc.ToString();
+            textBox22.Text = bbncc.ToString();
+            textBox26.Text = ccndd.ToString();
+
+
+            int aaBbb = 0;
+            int aaBcc = 0;
+            int aaBdd = 0;
+            int bbBcc = 0;
+            int bbBdd = 0;
+            int ccBdd = 0;
+
+            aaBbb = both(aa, bb, aaBbb);
+            aaBcc = both(aa, bb, aaBcc);
+            aaBdd = both(aa, bb, aaBdd);
+            bbBcc = both(aa, bb, bbBcc);
+            bbBdd = both(aa, bb, bbBdd);
+            ccBdd = both(aa, bb, ccBdd);
+
+            textBox7.Text = aaBbb.ToString();
+            textBox11.Text = aaBcc.ToString();
+            textBox15.Text = aaBdd.ToString();
+            textBox19.Text = bbBcc.ToString();
+            textBox23.Text = bbBdd.ToString();
+            textBox27.Text = ccBdd.ToString();
+
+
+            int aaUBbb = 0;
+            int aaUBcc = 0;
+            int aaUBdd = 0;
+            int bbUBcc = 0;
+            int bbUBdd = 0;
+            int ccUBdd = 0;
+
+            aaUBbb = unboth(aa, bb, aaUBbb);
+            aaUBcc = unboth(aa, bb, aaUBcc);
+            aaUBdd = unboth(aa, bb, aaUBdd);
+            bbUBcc = unboth(aa, bb, bbUBcc);
+            bbUBdd = unboth(aa, bb, bbUBdd);
+            ccUBdd = unboth(aa, bb, ccUBdd);
+
+            textBox8.Text = aaUBbb.ToString();
+            textBox12.Text = aaUBcc.ToString();
+            textBox16.Text = aaUBdd.ToString();
+            textBox20.Text = bbUBcc.ToString();
+            textBox24.Text = bbUBdd.ToString();
+            textBox28.Text = ccUBdd.ToString();
+        }
+
+        private void listBox36_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label135_Click(object sender, EventArgs e)
         {
 
         }
