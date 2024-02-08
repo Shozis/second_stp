@@ -58,6 +58,11 @@ namespace discret_alg
         int[] cUBd = new int[16];
 
 
+        string aas ="...";
+        string bbs = "...";
+        string ccs = "...";
+        string dds = "...";
+
         public Form1()
         {
             InitializeComponent();
@@ -413,7 +418,7 @@ namespace discret_alg
         public int both(int a, int b, int ab)
         {
                 if (a == b)
-            {
+                {
                     ab = 1;
                 }
                 else
@@ -478,6 +483,17 @@ namespace discret_alg
             int bb = Convert.ToInt32(textBox2.Text);
             int cc = Convert.ToInt32(textBox3.Text);
             int dd = Convert.ToInt32(textBox4.Text);
+
+
+            string aasw = Err(aa, aas);
+            string bbsw = Err(bb, aas);
+            string ccsw = Err(cc, aas);
+            string ddsw = Err(dd, aas);
+
+            label77.Text = aasw.ToString();
+            label149.Text = bbsw.ToString();
+            label150.Text = ccsw.ToString();
+            label151.Text = ddsw.ToString();
 
 
             int _aa = revers(aa);
@@ -572,17 +588,27 @@ namespace discret_alg
             textBox28.Text = ccUBdd.ToString();
         }
 
+        
+        static string Err(int i, string Er)
+        {
+            if (i >= 2)
+            {
+                Er = "wrong";
+            }
+            else
+            {
+                Er = "...";
+            }
+           return Er;
+        }
+        
+
         private void listBox36_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
 
         private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label135_Click(object sender, EventArgs e)
         {
 
         }
