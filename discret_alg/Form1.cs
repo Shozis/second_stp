@@ -125,9 +125,9 @@ namespace discret_alg
 
 
             for (int i = 0; i < a.Length; i++)
-             {
+            {
                 aub[i] = checkElement(a[i] + b[i]);
-             }
+            }
 
              for(int i = 0; i < a.Length; i++)
              {
@@ -612,5 +612,6 @@ namespace discret_alg
         {
 
         }
+
     }
 }
